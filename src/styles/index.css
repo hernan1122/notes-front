@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --background: #dde4e7;
+  --text-primary: #323335;
+  --text-secondary: #2b2c2d;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background: var(--background);
+}
+body::-webkit-scrollbar {
+  width: 6px;
+  background: transparent;
+}
+body::-webkit-scrollbar-thumb {
+  background: #000;
+  border-radius: 50px;
+}
+h1 {
+  font-size: 2.4rem;
+  color: var(--text-primary);
+}
